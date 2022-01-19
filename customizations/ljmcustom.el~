@@ -1,0 +1,9 @@
+;; Some custom keybindings I use
+
+(global-set-key (kbd "C-t") 'forward-sexp)
+(global-set-key (kbd "C-r") 'backward-sexp)
+(global-set-key (kbd "C-u") 'previous-line)
+(global-set-key (kbd "C-7") 'fixup-whitespace)
+(global-set-key (kbd "C-9") 'paredit-backward-delete)
+
+(provide 'ljmcustom.el)
